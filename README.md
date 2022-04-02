@@ -91,4 +91,6 @@ greencheck.checkPage(["google.com"])
 
 # Licenses
 
-Apache 2.0
+The code for CO2.js is licensed Apache 2.0.
+
+The carbon intensity data from Ember is published under the Creative Commons ShareAlike Attribution Licence ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))
