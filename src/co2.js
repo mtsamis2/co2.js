@@ -138,4 +138,4 @@ class CO2 {
   }
 }
 
-module.exports = CO2;
+export default CO2;
