@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
-
+- Switch from commonjs as a default to use ES6 modules as the default, then using Rollup to output node and web friendly builds.
 
 # [0.9.0] - 2022-03-28
 
