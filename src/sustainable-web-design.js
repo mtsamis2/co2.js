@@ -221,4 +221,6 @@ class SustainableWebDesign {
   }
 }
 
-module.exports = SustainableWebDesign;
+module.exports = {
+  SustainableWebDesign
+};
