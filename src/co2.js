@@ -2,16 +2,17 @@
 
 const url = require("url");
 const onebyte = require("./1byte.js");
+const sustainablewebdesign = require("./sustainable-web-design.js");
 
 class CO2 {
-  constructor(options) {
-    this.options = options;
+  constructor(useSwd) {
+    this.useSwd = useSwd;
 
-    // default model
-    this.model = new onebyte.OneByte();
-
-    if (options) {
-      this.model = new options.model();
+    if (useSwd) {
+      this.model = new sustainablewebdesign.model();
+    } else {
+      // default model
+      this.model = new onebyte.OneByte();
     }
   }
 
